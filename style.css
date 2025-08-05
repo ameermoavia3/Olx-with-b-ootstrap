@@ -1,0 +1,111 @@
+.bgcolor {
+    background-color: #ebf1ff;
+}
+
+.multi-color {
+    border: 6px solid transparent;
+    border-radius: 50px;
+    background: 
+        linear-gradient(white, white) padding-box, 
+        linear-gradient(90deg, #FFD700, #00E6E6, #007BFF) border-box;
+    color: black;
+    font-weight: bold;
+}
+
+.plus-sign {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 0;
+    display: inline-block;
+    opacity: 60%;
+}
+
+.font {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.login-underline {
+    display: inline-block;
+    padding-bottom: 0px;
+    padding-inline: 1px;
+    border-bottom: 2px solid black;
+    width: fit-content;
+}
+
+.login-underline:hover {
+    display: inline-block;
+    padding-bottom: 0px;
+    padding-inline: 1px;
+    border-bottom: none;
+    width: fit-content;
+}
+
+.logo-container {
+    background-color: white;
+    border-radius: 30% 30% 0 0;
+    padding-bottom: 10px; /* padding fix value ho */
+    margin-bottom: -10px;
+}
+
+.hover-text-primary:hover {
+    color: #0d6efd; /* Bootstrap's primary blue color */
+    cursor: pointer;
+}
+
+.search-move {
+     margin-right: 700px;
+}
+
+.line {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.line1 {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    
+}
+
+.line2 {
+    width: 820px;
+}
+
+.location-group input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.location-group:focus-within {
+    outline: 2px solid #3a77ff;  /* OLX blue color */
+    border-radius: 8px;
+    outline-offset: 0;
+}
+
+input.form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Apply blue outline to entire group only when input is focused */
+.search-input:focus {
+    outline: 2px solid #3a77ff;
+    outline-offset: 0;
+    border-radius: 8px;
+}
+
+/* Match height of input and button */
+.input-group .form-control,
+.input-group .btn {
+    height: 48px;
+}
+
+.categories {
+    margin-left: -115px;
+}
+
+
+
+
+
+
